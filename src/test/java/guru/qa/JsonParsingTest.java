@@ -15,7 +15,6 @@ public class JsonParsingTest {
     @Test
     void testJsonParsing() throws Exception {
 
-        // Чтение JSON файла
         try (InputStream is = getClass().getClassLoader().getResourceAsStream("Application.json")) {
 
             ObjectMapper objectMapper = new ObjectMapper();
@@ -28,7 +27,6 @@ public class JsonParsingTest {
             assertEquals("Y", application.getAvailableLimitDecrease());
             assertTrue(application.isEnableKnAdditionalService());
             assertEquals(0, application.getExistProfileCardFlag());
-
 
            List<Loans> currentLoans = application.getCurrentLoans();
            assertEquals(2, currentLoans.size());
