@@ -1,0 +1,24 @@
+{
+  "kNIncomeConfirmationType": "Прямое",
+  "searchType": "CashLoan",
+  "vipClientFlg": "N",
+  "availableLimitDecrease": "Y",
+  "currentLoans": [
+    {
+      "id": "01bebd95-1db9-447c-8617-de815b415938",
+      "docNumber": "3KK-651019426831",
+      "type": "Кредитная карта",
+      "creditHistoryType": "INT",
+      "currencyCode": "RUR"
+    },
+    {
+      "id": "ebb3c713-bc6e-4c62-a807-633c52b986be",
+      "docNumber": "2KK-651019414700",
+      "type": "Кредитная карта",
+      "creditHistoryType": "INT",
+      "currencyCode": "RUR"
+    }
+  ],
+  "enableKnAdditionalService": true,
+  "existProfileCardFlag": 0
+}
